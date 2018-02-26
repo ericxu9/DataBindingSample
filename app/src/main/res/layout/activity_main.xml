@@ -11,14 +11,37 @@
 
     <Button
         android:id="@+id/btn_basicUsage"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="基础使用"/>
 
     <Button
-        android:id="@+id/btn_list"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn_view_stub"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="列表展示"/>
+        android:text="ViewStub"/>
 
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView"/>
+
+    <Button
+        android:id="@+id/btn_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment"/>
+
+    <Button
+        android:id="@+id/btn_custom_setter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="custom setter"/>
+
+    <Button
+        android:id="@+id/btn_converters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converters"/>
 </LinearLayout>

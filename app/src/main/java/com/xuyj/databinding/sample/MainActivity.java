@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.btn_basicUsage).setOnClickListener(this);
         findViewById(R.id.btn_list).setOnClickListener(this);
+        findViewById(R.id.btn_custom_setter).setOnClickListener(this);
+        findViewById(R.id.btn_converters).setOnClickListener(this);
+        findViewById(R.id.btn_fragment).setOnClickListener(this);
+        findViewById(R.id.btn_view_stub).setOnClickListener(this);
     }
 
     @Override
@@ -28,6 +32,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_list:
                 start(ListActivity.class);
+                break;
+            case R.id.btn_custom_setter:
+                start(CustomSetterActivity.class);
+                break;
+            case R.id.btn_converters:
+                start(ConvertersActivity.class);
+                break;
+            case R.id.btn_fragment:
+                start(FragmentUsageActivity.class);
+                break;
+            case R.id.btn_view_stub:
+                start(ViewStubActivity.class);
                 break;
         }
     }

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.xuyj.databinding.sample">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
@@ -18,6 +20,14 @@
         </activity>
         <activity android:name=".BasicUsageActivity"/>
         <activity android:name=".ListActivity">
+        </activity>
+        <activity android:name=".CustomSetterActivity">
+        </activity>
+        <activity android:name=".ConvertersActivity">
+        </activity>
+        <activity android:name=".FragmentUsageActivity">
+        </activity>
+        <activity android:name=".ViewStubActivity">
         </activity>
     </application>
 

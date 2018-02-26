@@ -1,0 +1,15 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data class="FragmentBinding">
+
+        <variable
+            name="user"
+            type="com.xuyj.databinding.sample.User"/>
+    </data>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='@{"姓名="+user.name}'/>
+
+</layout>

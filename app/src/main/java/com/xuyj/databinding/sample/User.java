@@ -7,7 +7,10 @@ package com.xuyj.databinding.sample;
  * 描述:     TODO
  */
 
-public class User
+import android.databinding.BaseObservable;
+import android.databinding.Bindable;
+
+public class User extends BaseObservable
 {
     private String name;
     private int    age;
@@ -18,6 +21,7 @@ public class User
         this.age = age;
     }
 
+    @Bindable
     public String getName()
     {
         return name;
@@ -26,8 +30,10 @@ public class User
     public void setName(String name)
     {
         this.name = name;
+        notifyPropertyChanged(BR.name);
     }
 
+    @Bindable
     public int getAge()
     {
         return age;
@@ -36,6 +42,7 @@ public class User
     public void setAge(int age)
     {
         this.age = age;
+//        notifyPropertyChanged(BR.age);
     }
 
     @Override

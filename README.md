@@ -1,4 +1,5 @@
 简书地址：https://www.jianshu.com/p/c9a0b0c53524
+
 Android DataBinding Library使用指北
 
 DataBinding（数据绑定库）是Google提供的一个支持库，能够帮助我们减少应用程序和布局之间的一些冗余代码，比如我们以前常写的`findViewById`，不仅如此；我们所说的MVVM模式也是基于它来实现的，下面让我们来了解它的更多好处吧。

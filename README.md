@@ -790,8 +790,6 @@ public class Utils
 
 关于Data Binding我还没有运用在项目中，这篇博客写的也有点乱；欢迎各位小伙伴及时指正错误，感谢！
 
-####  Github源码[点这里](https://github.com/XuMiaoLee/DataBindingSample)
-
 #### 参考
 
 [https://developer.android.google.cn/topic/libraries/data-binding/index.html#converters](https://developer.android.google.cn/topic/libraries/data-binding/index.html#converters)
